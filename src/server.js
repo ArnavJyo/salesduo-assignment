@@ -42,7 +42,7 @@ async function extractMeetingInsights(rawText) {
     required: ['summary', 'decisions', 'actionItems']
   };
 
-  const prompt = `Extract structured meeting minutes from the notes below. Return ONLY JSON (no markdown) matching the provided schema. Summary must be 2–3 sentences. Omit unknown optional fields. Be very careful about the context and information .\n\nNotes:\n${rawText}`;
+  const prompt = `Extract structured meeting minutes from the notes below. Return ONLY JSON (no markdown) matching the provided schema. Summary must be 2–3 sentences. Omit unknown optional fields. Be very careful about the context and information , some information provided in notes might be universally applicable to all tasks too but mention those properties to actionItems aswell .\n\nNotes:\n${rawText}`;
 
   const model = genAI.getGenerativeModel({
     model: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
