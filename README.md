@@ -14,7 +14,7 @@ npm install
 
 ```bash
 GEMINI_API_KEY=your_key_here
-GEMINI_MODEL=gemini-1.5-flash-001
+GEMINI_MODEL=gemini-2.5-flash
 PORT=3000
 ```
 
