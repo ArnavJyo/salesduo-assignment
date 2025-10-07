@@ -1,0 +1,7 @@
+Q3 Planning – Aug 2
+
+- Marketing to finalize campaign themes by Aug 15.
+- Engineering to spike on real-time alerts.
+- Data team flagged data freshness issues; daily pipeline needs fixes.
+- Decision: prioritize reliability work over new features in sprint 21.
+

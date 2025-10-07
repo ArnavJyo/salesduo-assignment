@@ -1,0 +1,26 @@
+**Meeting Title:** Candidate Interview – Software Engineer (Full Stack)
+**Date:** October 7, 2025
+**Attendees:**
+
+* Interview Panel: Ravi Singh
+* Candidate: Arnav Jyotshi
+* Role: Software Engineer (Full Stack)
+
+
+* Candidate introduced background in Node.js, React.js, and PostgreSQL.
+* Discussed previous experience in building REST APIs and handling scalable microservices.
+* Candidate showcased project on loan management dashboard; explained integration with third-party APIs and React-based frontend improvements.
+* Technical assessment focused on async/await, error handling, and database transactions using Sequelize.
+* Candidate demonstrated strong debugging and optimization skills.
+* Behavioral round covered teamwork, adaptability, and ownership in fast-paced startup environments.
+
+
+* Strengths: solid full stack knowledge, clear communication, strong problem-solving approach.
+* Areas for improvement: could deepen understanding of system design patterns and cloud deployment strategies.
+
+
+* Candidate shortlisted for final round (System Design + Cultural Fit).
+
+
+* HR to schedule final interview by Oct 10.
+* Technical panel to prepare scenario-based system design questions.
