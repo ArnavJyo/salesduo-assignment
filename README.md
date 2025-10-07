@@ -42,9 +42,8 @@ curl -sS http://localhost:3000/process-meeting \
 ### Test using Postman
 1. Open Postman → Create a new POST request.
 
-2. ```bash 
-http://localhost:3000/process-meeting 
-```
+2 ```bash 
+http://localhost:3000/process-meeting ```
 3. Go to Body → form-data.
 
 4 Add one field:
