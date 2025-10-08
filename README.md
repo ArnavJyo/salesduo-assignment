@@ -57,8 +57,11 @@ Value: (select your .txt file, e.g. meeting_notes.txt)
 
 5. Click Send.
 
-
-
+### To test the API without setting the project locally
+use this endpoint instead of the localhost to test via cURL or Postman
+```aiexclude
+https://salesduo-assignment.vercel.app/process-meeting
+```
 
 ## Sample Input 
 
