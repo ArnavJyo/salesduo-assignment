@@ -112,7 +112,6 @@ app.post('/process-meeting', upload.any(), async (req, res) => {
         error: 'Model not found or not supported for generateContent',
         message: err?.message,
         hint: 'Set GEMINI_MODEL to a supported model like gemini-1.5-flash-001 or gemini-1.5-pro-001. Avoid using -latest.',
-        usedModel: resolveModelName(process.env.GEMINI_MODEL || 'gemini-1.5-flash-001')
       });
     }
     const isTimeout = /timeout/i.test(String(err?.message));
@@ -121,8 +120,8 @@ app.post('/process-meeting', upload.any(), async (req, res) => {
   }
 });
 
-app.get('/health', (_req, res) => {
-  res.json({ ok: true });
+app.get('/', async (req, res) => {
+  res.status(200).json({ message: 'Hello Welcome to the AI Minutes of Meeting Extractor API. use /process-meeting route to process your minutes of the meeting' });
 });
 
 app.listen(port, () => {
