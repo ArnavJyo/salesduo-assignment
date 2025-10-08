@@ -76,7 +76,6 @@ async function extractMeetingInsights(rawText) {
 }
 
 app.post('/process-meeting', upload.any(), async (req, res) => {
-  const contentType = req.headers['content-type'] || '';
 
   try {
     let rawText = '';

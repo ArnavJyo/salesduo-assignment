@@ -93,24 +93,25 @@ https://salesduo-assignment.vercel.app/process-meeting
 * Technical panel to prepare scenario-based system design questions.
 
 ## Sample Output
+```json
 {
-    "summary": "Arnav Jyotshi was interviewed for the Software Engineer (Full Stack) role, demonstrating strong skills in Node.js, React.js, PostgreSQL, and problem-solving. The technical and behavioral rounds highlighted his experience in building scalable microservices and a loan management dashboard. Based on his performance, Arnav has been shortlisted for the final interview round.",
-    "decisions": [
-        "Candidate shortlisted for final round (System Design + Cultural Fit)."
-    ],
-    "actionItems": [
-        {
-            "task": "HR to schedule final interview",
-            "owner": "HR",
-            "due": "Oct 10"
-        },
-        {
-            "task": "Technical panel to prepare scenario-based system design questions",
-            "owner": "Technical panel"
-        }
-    ]
-} 
-
+"summary": "Arnav Jyotshi was interviewed for the Software Engineer (Full Stack) role, demonstrating strong skills in Node.js, React.js, PostgreSQL, and problem-solving. The technical and behavioral rounds highlighted his experience in building scalable microservices and a loan management dashboard. Based on his performance, Arnav has been shortlisted for the final interview round.",
+"decisions": [
+"Candidate shortlisted for final round (System Design + Cultural Fit)."
+],
+"actionItems": [
+{
+"task": "HR to schedule final interview",
+"owner": "HR",
+"due": "Oct 10"
+},
+{
+"task": "Technical panel to prepare scenario-based system design questions",
+"owner": "Technical panel"
+}
+]
+}
+```
 
 
 ## Checkout other samples to test
